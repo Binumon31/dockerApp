@@ -1,0 +1,12 @@
+services:
+  app:
+    image: myapp
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3000
+      - 9229:9229
+    restart: on-failure
+    volumes:
+      - .:/app
