@@ -4,7 +4,7 @@ This repository contains sample code for Containerize and Debugging Node.js Appl
 # Prerequisites
    * Docker
    * Visual Studio Code
-   * Docker extension for Visual Studio Code
+   * Node
 
 # Getting Started
 Clone this repository:
