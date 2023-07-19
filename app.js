@@ -2,7 +2,7 @@ import express from 'express';
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-console.log("test")
+console.log("test123")
 app.get('/', (request, response) => {
   response.status(200).json({
     message: 'Hello Docker!',
